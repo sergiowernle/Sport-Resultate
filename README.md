@@ -4,7 +4,7 @@ Unser Projekt:
 Das Ziel in unserem Projekt ist es, ein Funktionsfähiges Programm zu erstellen, welches Resultate von verschiedenen Sportarten anzeigt. Die Resultate sollen natürlich aktuell sein. Am Anfang beschränken wir uns auf Fussball, Eishockey und Basketball. Jedoch wird die Zeit eventuell noch reichen für weitere.
 
 Unsere API:
-Unsere API hat den Namen TheSportsDB und beinhaltet genau die Befehle und Funktionen die wir brauchen. 
+Unsere API hat den Namen TheSportsDB und beinhaltet genau die Befehle und Funktionen die wir brauchen. Im ReadME wird vieles der Funktionene besprochen, genauere Details findet man unter src/Client/ dort stehen die groben funktionen beschrieben weitere kleine wichtige Funktionen sind unter src/client/Endpoint
 Link API: https://www.thesportsdb.com/
 
 Mitglieder: Philemon, Bleard, Sergio
