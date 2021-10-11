@@ -1,0 +1,48 @@
+{
+    "name": "nkl-kst/the-sports-db",
+    "type": "library",
+    "description": "PHP library to get sports data from TheSportsDB (https://www.thesportsdb.com)",
+    "keywords": ["TheSportsDB", "library", "PHP"],
+    "homepage": "https://www.github.com/nkl-kst/the-sports-db",
+    "readme": "README.md",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nikolai Keist",
+            "homepage": "https://www.github.com/nkl-kst"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "ext-json": "*",
+        "guzzlehttp/guzzle": "^7.2",
+        "netresearch/jsonmapper": "^4.0",
+        "symfony/dependency-injection": "^5.1"
+    },
+    "require-dev": {
+        "ext-mbstring": "*",
+        "phpunit/phpunit": "^9.0.0",
+        "friendsofphp/php-cs-fixer": "^2.17",
+        "php-coveralls/php-coveralls": "^2.4",
+        "phpstan/phpstan": "^0.12.85"
+    },
+    "autoload": {
+        "psr-4": {
+            "NklKst\\TheSportsDb\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NklKst\\TheSportsDb\\": "test/unit"
+        }
+    },
+    "scripts": {
+        "analyze-code": "phpstan analyze --error-format=github",
+        "check-code": "php-cs-fixer fix --dry-run --verbose",
+        "fix-code": "php-cs-fixer fix --verbose",
+        "test-unit": "phpunit --testsuite=Unit --coverage-clover build/logs/clover.xml",
+        "test-integration": "phpunit --testsuite=Integration",
+        "upload-coverage": "php-coveralls --coverage_clover=build/logs/clover.xml -v"
+    }
+}
