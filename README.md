@@ -34,7 +34,7 @@ echo $highlights[0]->strVideo;
 $events = $client->schedule()->teamNext(133602);
 echo $events[0]->strEvent;
 
-Formeln: ![image](https://user-images.githubusercontent.com/89902698/136927134-7d03257b-ea38-451e-8107-6233be7902b6.png)
+![Formeln](https://user-images.githubusercontent.com/89902698/136927134-7d03257b-ea38-451e-8107-6233be7902b6.png)
 
 ![Logo Sport Resultate](https://user-images.githubusercontent.com/89902676/136811820-e4609a91-f716-437a-a22d-87408dbe5c60.png)
 
