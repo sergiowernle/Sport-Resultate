@@ -3,7 +3,7 @@
 ## Unser Projekt:
 Das Ziel in unserem Projekt ist es, ein Funktionsfähiges Programm zu erstellen, welches Resultate von verschiedenen Sportarten anzeigt. Die Resultate sollen natürlich aktuell sein. Am Anfang beschränken wir uns auf Fussball, Eishockey und Basketball. Jedoch wird die Zeit eventuell noch reichen für weitere. Dazu wollen wir es so machen, dass man in den Verschiedenen Sportarten die Resultate verschiedener Ligen anschauen kann.
 
-S(Spezifisch):
+S(Spezifisch):Am Schluss wollen wir gerne ein funktionierendes Programm, das uns mithilfe der API SPortresultate oder Infos zu Ligen und Clubs liefern kann.
 M(Messbar):
 A(Attraktiv):
 R(Realistisch):
