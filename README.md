@@ -9,7 +9,8 @@ A(Attraktiv):
 R(Realistisch):
 T(Terminiert):
 
-Teamkodex: In unserem Team wird Respekt gross geschriben.
+Teamkodex: In unserem Team wird Respekt gross geschriben. Wir gehen miteinander freundlich und höflich um und hören einander immer zu. Wen es Fragen gibt, versuchen wir einander zu helfen damit man das Problem gemeinsam lösen kann. Es gibt keine schlechten Fragen. In unserem Team werden die Aufgaben fair aufgeteilt und wir beachten Wünsche von Teamkollegen. Ebenfalls achten wir darauf, dass andere Mitarbeiter effizient arbeiten können. Dies machen wir, indem wir nicht zu laut sind und die anderen nicht ablenken oder stören. 
+Nur so ist ein vernünftiges Arbeitsklima möglich.
 
 ### Unsere API:
 Unsere API hat den Namen TheSportsDB und beinhaltet genau die Befehle und Funktionen die wir brauchen, mit ihr können wir die Live Resultate von TheSportsDB abrufen und in unser Projekt einfügen. Im ReadME wird vieles der Funktionene beschrieben, genauere Details findet man unter (Code/Vendor/(nkl-kst/the-sports-db)/src/Client) dort stehen die groben funktionen beschrieben weitere kleine wichtige Funktionen sind unter (Code/Vendor/(nkl-kst/the-sports-db)/src/Client/Endpoint)
