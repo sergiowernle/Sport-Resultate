@@ -4,9 +4,13 @@
 Das Ziel in unserem Projekt ist es, ein Funktionsfähiges Programm zu erstellen, welches Resultate von verschiedenen Sportarten anzeigt. Die Resultate sollen natürlich aktuell sein. Am Anfang beschränken wir uns auf Fussball, Eishockey und Basketball. Jedoch wird die Zeit eventuell noch reichen für weitere. Dazu wollen wir es so machen, dass man in den Verschiedenen Sportarten die Resultate verschiedener Ligen anschauen kann.
 
 S(Spezifisch): Am Schluss unseres Projekts, wollen wir gerne ein funktionierendes Programm, das uns mithilfe unserer API Sportresultate oder Infos zu Ligen und Clubs liefern kann.
+
 M(Messbar): Unser Ziel ist es, mindestens 3 Sportarten auflisten und gewisse Ligen und Teams auflisten zu können. Dabei sollten mindestens 2 Ligen jeder Sportarten und alle Teams in dessen Ligen angezeigt werden. Natürlich mit den aktuellen Resultaten der jeweiligen spielen. 
+
 A(Attraktiv): Der Vorteil an unserem Projekt ist es, dass man ohne grosse Umstände, die Resultate seines Lieblingsteam abzurufen und deren Infos. In unserem Programm ist es      überhaupt nicht kompliziert die richtige Liga oder das richtige Team zu finden. Das Projekt soll unkompliziert und leicht zu verstehen sein.
+
 R(Realistisch): Unser Ziel ist sehr realistisch formuliert und wir sind zuverlässig, dass wir dieses Projekt gut abschliessen werden. Ich würde sogar soweit gehen, dass wir noch mehr Sportarten und Ligen auflisten könnten, wenn wir die API richtig verstehen. Jedoch möchte ich dies noch nicht sagen.
+
 T(Terminiert): Unser ProJekt soll am Freitag, den 15.10.21 abgeschlossen sein. Dazu gehören alle Abgaben zu erledigen und unser Programm den anderen vorzustellen.
 
 Teamkodex: In unserem Team wird Respekt gross geschriben. Wir gehen miteinander freundlich und höflich um und hören einander immer zu. Wen es Fragen gibt, versuchen wir einander zu helfen damit man das Problem gemeinsam lösen kann. Es gibt keine schlechten Fragen. In unserem Team werden die Aufgaben fair aufgeteilt und wir beachten Wünsche von Teamkollegen. Ebenfalls achten wir darauf, dass andere Mitarbeiter effizient arbeiten können. Dies machen wir, indem wir nicht zu laut sind und die anderen nicht ablenken oder stören. 
