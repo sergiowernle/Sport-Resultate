@@ -36,13 +36,19 @@ $leageID = readline("Welche Liga möchtest du dir ansehen?\n");
 
 
 //Get all Teams
-$teams = $client->list()->teams();
 
+$teams = $client->list()->teams($leageID);
+
+//print_r ($teams);
 
 for ($i = 0; $i < count($teams); $i++) {
-    if ($teams[$i]->strLeagues == $userChoice['sport']->strLeagues) {
+//    $ttt = $teams[$i];
+//    print_r ($ttt);
+//    if ($teams[$i]->strTeams == $userChoice['sport']->strTeams) {
+//    if ($teams[$i]->strTeams == $userChoice['sport']->strTeams) {
         echo $teams[$i]->idTeam . " " . $teams[$i]->strTeam . "\n";
-    }
+//    }
 }
 
 $teamID = readline("Welches Team möchtest du dir ansehen?");
+
