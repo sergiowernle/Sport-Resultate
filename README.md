@@ -21,6 +21,8 @@ Unsere API hat den Namen TheSportsDB und beinhaltet genau die Befehle und Funkti
 Link API: https://www.thesportsdb.com/
 
 ### Beispiel wie unsere API funktioniert:
+```
+{
 <?php
 
 
@@ -59,6 +61,8 @@ https://user-images.githubusercontent.com/89902698/136927134-7d03257b-ea38-451e-
 
 
 https://user-images.githubusercontent.com/89902676/136811820-e4609a91-f716-437a-a22d-87408dbe5c60.png
+}
+```
 
 
 Mitglieder: Philemon und Sergio
