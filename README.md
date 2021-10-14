@@ -21,6 +21,8 @@ Unsere API hat den Namen TheSportsDB und beinhaltet genau die Befehle und Funkti
 Link API: https://www.thesportsdb.com/
 
 ### Beispiel wie unsere API funktioniert:
+
+```php
 <?php
 
 
@@ -53,7 +55,7 @@ echo $highlights[0]->strVideo;
 // Get next events for Liverpool FC
 $events = $client->schedule()->teamNext(133602);
 echo $events[0]->strEvent;
-
+```
 
 https://user-images.githubusercontent.com/89902698/136927134-7d03257b-ea38-451e-8107-6233be7902b6.png
 
