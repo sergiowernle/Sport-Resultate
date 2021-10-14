@@ -42,8 +42,8 @@ $teams = $client->list()->teams($leageID);
 //print_r ($teams);
 
 for ($i = 0; $i < count($teams); $i++) {
-//    $ttt = $teams[$i];
-//    print_r ($ttt);
+    // $ttt = $teams[$i];
+    // print_r ($ttt);
 //    if ($teams[$i]->strTeams == $userChoice['sport']->strTeams) {
 //    if ($teams[$i]->strTeams == $userChoice['sport']->strTeams) {
         echo $teams[$i]->idTeam . " " . $teams[$i]->strTeam . "\n";
@@ -52,3 +52,13 @@ for ($i = 0; $i < count($teams); $i++) {
 
 $teamID = readline("Welches Team möchtest du dir ansehen?");
 
+
+$events = $client->lookup()->results($teamID);
+
+print_r ($events);
+
+for ($i = 0; $i < count($events); $i++) {
+    echo $events[$i]->idEvent . " " . $events[$i]->strEvent . "\n";
+}
+
+$eventID = readline("Dies ist das aktuelle Resultat:");
