@@ -23,32 +23,42 @@ Link API: https://www.thesportsdb.com/
 ### Beispiel wie unsere API funktioniert:
 <?php
 
+
 phpinfo();
 
+
 exit;
+
 
 // You need to load the Composer autoload file somewhere in your code before
 require_once 'vendor/autoload.php';
 
 use NklKst\TheSportsDb\Client\ClientFactory;
 
+
 // Create a client
 $client = ClientFactory::create();
+
 
 // Get soccer livescores
 $livescores = $client->livescore()->now('Soccer');
 echo $livescores[0]->strProgress;
 
+
 // Get video highlights
 $highlights = $client->highlight()->latest();
 echo $highlights[0]->strVideo;
+
 
 // Get next events for Liverpool FC
 $events = $client->schedule()->teamNext(133602);
 echo $events[0]->strEvent;
 
+
 https://user-images.githubusercontent.com/89902698/136927134-7d03257b-ea38-451e-8107-6233be7902b6.png
 
+
 https://user-images.githubusercontent.com/89902676/136811820-e4609a91-f716-437a-a22d-87408dbe5c60.png
+
 
 Mitglieder: Philemon und Sergio
