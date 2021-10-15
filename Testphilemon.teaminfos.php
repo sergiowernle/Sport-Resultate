@@ -61,5 +61,4 @@ for ($i = 0; $i < count($teams); $i++) {
 //     echo $events[$i]->idEvent . " " . $events[$i]->strEvent . "\n";
 // }
 
-// $eventID = readline("Dies ist das aktuelle Resultat:"); 
 $teamID = readline("Dies sind alle Teams und deren Infos aus derf ausgewählten Liga!");
