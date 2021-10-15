@@ -49,7 +49,7 @@ for ($i = 0; $i < count($teams); $i++) {
 //    }
 }
 
-//Wahl hinzufügen
+//Team hinzufügen
 $teamID = readline("Welches Team möchtest du dir ansehen?");
 
 $events = $client->schedule()->teamLast($teamID);
