@@ -52,13 +52,14 @@ for ($i = 0; $i < count($teams); $i++) {
 //Wahl hinzufügen
 $teamID = readline("Welches Team möchtest du dir ansehen?");
 
-$events = $client->lookup()->results($teamID);
+$events = $client->schedule()->teamLast($teamID);
 
 print_r ($events);
 
 for ($i = 0; $i < count($events); $i++) {
-    echo $events[$i]->idEvent . " " . $events[$i]->strEvent . "\n";
+    echo $events[$i]->idHomeTeam . " " . $events[$i]->strEvent . "\n";
+    echo $events[$i]->intHomeScore.":" . $events[$i]->intAwayScore ."\n";
 }
 
 
-$eventID = readline("Dies ist das aktuelle live Resultat!");
+$eventID = readline("Dies sind die letzten Events!");
