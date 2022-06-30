@@ -1,0 +1,5 @@
+{
+    "require": {
+        "nkl-kst/the-sports-db": "^1.0"
+    }
+}
